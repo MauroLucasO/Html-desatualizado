@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex Teste</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      
+    
+      <h1>Pokemons favoritos</h1>
+      
+      <div class="pokedevs">
+        <div class="cartoes-pokedev">
+          <div class="cartao-pokedev tipo-normal aberto" id="cartao-aipom">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Aipom</h2>
+                <span>#000</span>
+              </div>
+
+              <span class="tipo">normal</span>
+
+              <div class="cartao-imagem">
+                <img src="./src/imagens/Aipom.png" alt="Aipom" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="descricao">
+                <h3>Descrição</h3>
+
+                <p>
+                  Aipom macaco tipo normal
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cartao-pokedev tipo-normal" id="cartao-eevee">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Eevee</h2>
+                <span>#002</span>
+              </div>
+
+              <span class="tipo">normal</span>
+
+              <div class="cartao-imagem">
+                <img src="./src/imagens/eevee.png" alt="eevee" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="descricao">
+                <h3>Descrição</h3>
+                <p>
+                  Sua capacidade de evoluir continuamente permite que ele se
+                  adapte de forma eficaz a qualquer ambiente.
+                  Isso reflete a flexibilidade e a capacidade de aprendizado
+                  contínuo que são essenciais.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cartao-pokedev tipo-agua" id="cartao-squirtle">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Squirtle</h2>
+                <span>#004</span>
+              </div>
+
+              <span class="tipo">água</span>
+
+              <div class="cartao-imagem">
+                <img src="./src/imagens/Squirtle.png" alt="cartao-squirtle" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="descricao">
+                <h3>Descrição</h3>
+                <p>
+                  Óculos apenas.
+                </p>
+              </div>
+            </div>
+          
+          </div>
+
+          <div class="cartao-pokedev tipo-eletrico" id="cartao-pachi">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Pachi</h2>
+                <span>#001</span>
+              </div>
+
+              <span class="tipo">elétrico</span>
+
+              <div class="cartao-imagem">
+                <img src="./src/imagens/Pachi.jpg" alt="Pachi" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="descricao">
+                <h3>Descrição</h3>
+                <p>
+                  Com grandes poderes grandes mundiais.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cartao-pokedev tipo-fantasma" id="cartao-shedja">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Shedja</h2>
+                <span>#005</span>
+              </div>
+
+              <span class="tipo">Fantasma</span>
+
+              <div class="cartao-imagem">
+                <img src="./src/imagens/Shedja.png" alt="Shedja" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="descricao">
+                <h3>Descrição</h3>
+                <p>
+                  A expressão “trabalhe enquanto eles dormem” poderia ter sido
+                  facilmente criada por este pokedev. Afinal, ele tem o dom de
+                  codar por horas e horas, madrugada adentro, regado a muito
+                  café e energéticos. Sua dedicação é tão intensa que, enquanto
+                  a maioria das pessoas está descansando, ele está imerso em
+                  linhas de código, resolvendo problemas e criando soluções.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <nav class="listagem">
+          <ul>
+            <li class="pokedev ativo" id="aipom">
+              <img src="./src/imagens/Aipom.png" alt="Aipom" />
+              <span>Aipom</span>
+            </li>
+            <li class="pokedev" id="pachi">
+              <img src="./src/imagens/Pachi.jpg" alt="Pachi" />
+              <span>Pachirisu</span>
+            </li>
+            <li class="pokedev" id="eevee">
+              <img src="./src/imagens/eevee.png" alt="eevee" />
+              <span>Eevee</span>
+            </li>
+            <li class="pokedev" id="squirtle">
+              <img src="./src/imagens/Squirtle.png" alt="Squirtle" />
+              <span>Squirtle</span>
+            </li>
+            <li class="pokedev" id="shedja">
+              <img src="./src/imagens/Shedja.png" alt="Shedja" />
+              <span>Shedja</span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
